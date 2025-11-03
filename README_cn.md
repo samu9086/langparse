@@ -1,8 +1,10 @@
 # LangParse
 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+
 > Documents In, Knowledge Out. (文档进，知识出。)
 
-**LangParse 是一个为 LLM 或 Agent 应用打造的通用文档解析与文本分块引擎 —— 实现“文档进，知识出”。**
+**LangParse 是一个为 LLM 或 Agent 应用打造的通用文档解析与文本分块引擎 —— 实现"文档进，知识出"。**
 
 ---
 

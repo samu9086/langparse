@@ -1,5 +1,7 @@
 # LangParse
 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+
 > Documents In, Knowledge Out.
 
 **LangParse is a universal document parsing and text chunking engine for LLM or agent applications — Documents In, Knowledge Out.**
@@ -14,7 +16,7 @@ This is a brand-new project aiming to solve the "first-mile" problem of parsing 
 
 Our vision is to build a robust, high-fidelity parsing engine that is extremely developer-friendly. We are actively looking for early contributors, design partners, and anyone interested in building the next generation of RAG infrastructure.
 
-**We invite you to join us! Please check out the [How to Contribute](#-how-to-contribute) section.**
+**We invite you to join us!**
 
 ## 🤔 Why LangParse?
 
