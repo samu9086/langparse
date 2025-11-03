@@ -1,0 +1,54 @@
+# File: .github/workflows/pypi-publish.yml
+# This workflow name must match exactly with the "Workflow name" you fill in on PyPI website
+
+name: Publish Python 🐍 distribution to PyPI
+
+on:
+  # Triggered when you create a new release on GitHub
+  release:
+    types: [published]
+  
+  # Optional: Allows you to manually run this workflow from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  # Required for "Trusted Publishing" (OIDC)
+  id-token: write
+  # Required by `actions/checkout` to read your code
+  contents: read
+
+jobs:
+  publish-to-pypi:
+    name: Publish distribution to PyPI
+    runs-on: ubuntu-latest
+    
+    # Important: Specify the environment name we told PyPI
+    # This must match the "Environment name" (pypi) you fill in on PyPI
+    environment: pypi
+    
+    steps:
+    - name: Checkout repository
+      # Checkout your code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      # Install Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.x"
+
+    - name: Install uv
+      # Install uv
+      uses: astral-sh/setup-uv@v1
+      with:
+        uv-version: latest
+
+    - name: Build package with uv
+      # Run 'uv build', which reads pyproject.toml
+      # and creates .whl and .tar.gz files in the dist/ directory
+      run: uv build
+
+    - name: Publish package to PyPI
+      # Official PyPI publish action
+      # It automatically uses OIDC token for secure authentication, no API key needed
+      uses: pypa/gh-action-pypi-publish@release/v1
