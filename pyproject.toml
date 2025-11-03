@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "langparse"
+version = "0.0.1"  
+authors = [
+    { name="syw2014", email="syw2014@gmail.com" }
+]
+description = "LangParse is a universal document parsing and text chunking engine for LLM or agent applications — Documents In, Knowledge Out."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["llm", "rag", "parsing", "chunking", "agent", "document-parsing"]
+dependencies = [
+    "loguru>=0.7.3",
+]
+
+[project.urls]
+Homepage = "https://github.com/syw2014/langparse"
+Repository = "https://github.com/syw2014/langparse"
+Issues = "https://github.com/syw2014/langparse/issues"
